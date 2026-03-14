@@ -64,10 +64,9 @@ npm install
 
    d. Update the `.env` file with your Supabase credentials:
    ```
-   VITE_SUPABASE_URL=your_supabase_project_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   ```
-
+   VITE_SUPABASE_URL=https://mwwkrtcvvyxidzxbnghk.supabase.co
+   VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im13d2tydGN2dnl4aWR6eGJuZ2hrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0NzI3MzIsImV4cCI6MjA4OTA0ODczMn0.b9z87ICTWsUbm5Hzx-Y9jqp-4t44zcNItb2u69aSC9k
+  ...
 4. Start the development server:
 ```bash
 npm run dev
@@ -102,14 +101,4 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
